@@ -1,0 +1,30 @@
+Türkçe Mail Spam Analizi Model Sonuçları
+=======================================
+
+Başlangıç veri sayısı: 12421
+Temizlik sonrası veri sayısı: 8342
+
+Etiket dağılımı:
+etiket
+spam      4353
+normal    3989
+Name: count, dtype: int64
+
+Eğitim veri sayısı: 6673
+Test veri sayısı: 1669
+
+Accuracy: 0.9622528460155781
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      normal       0.96      0.96      0.96       798
+        spam       0.96      0.96      0.96       871
+
+    accuracy                           0.96      1669
+   macro avg       0.96      0.96      0.96      1669
+weighted avg       0.96      0.96      0.96      1669
+
+Confusion Matrix:
+[[767  31]
+ [ 32 839]]
